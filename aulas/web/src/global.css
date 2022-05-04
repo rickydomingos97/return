@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-[#09090A] text-zinc-100
+}
+
 
 /** .button {
     @apply bg-slate-400 p-2 h-10 rounded
