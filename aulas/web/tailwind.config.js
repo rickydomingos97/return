@@ -9,6 +9,9 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('tailwind-scrollbar'),
+  ],
 }
 // trocar o original => "./src/**/*.{html,js}" por "./src/**/*.tsx"
