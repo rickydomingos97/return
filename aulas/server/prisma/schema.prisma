@@ -6,6 +6,24 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+
+//deixa essa mesma url pois estamos usando a variavel de ambiente do nosso server
+//datasource db {
+//  provider = "postgresql"
+//  url      = env("DATABASE_URL")
+//}
+// id Int @id @default(autoincrement())
+//Universal Unique ID
+
+model Feedback {
+  id String @id @default(uuid()) 
+
+  type       String
+  comment    String
+  screenshot String? //optional 
+
+  @@map("feedbaksk")
 }
