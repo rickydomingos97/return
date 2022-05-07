@@ -2,9 +2,9 @@ import { MailAdapter } from "../adapters/mail-adapter";
 import { FeedbacksRepository } from "../repositories/feedbacks-repository";
 
 interface SubmitFeedbackUseCaseRequest {
-    type: string,
-    comment: string,
-    screenshot?: string
+    type: string;
+    comment: string;
+    screenshot?: string;
 }
 
 export class SubmitFeedbackUseCase {
@@ -26,10 +26,9 @@ export class SubmitFeedbackUseCase {
             subject: 'Novo feedback',
             body: [
                 `<div style="font-family: sans-serif; font-family: 16px; color: #111; ">`,
-                `<p>Tipo do feedback ${type}</p>`,
-                `<p>Comentario ${comment}</p>`,
+                `<p>Type do feedback ${type}</p>`,
+                `<p>Commentary ${comment}</p>`,
                 `</div>`
-                ].join('\n')
+            ].join('\n')
         })
     }
-}
