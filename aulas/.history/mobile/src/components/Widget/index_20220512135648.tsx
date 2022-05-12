@@ -42,7 +42,7 @@ function Widget() {
       >
 
         <Form 
-        feedbackType="BUG"
+        feedbackType="OTHER"
         />
 
       </BottomSheet>
