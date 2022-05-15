@@ -8,14 +8,14 @@ import { styles } from './styles';
 interface Props {
   screenshot: string | null
   onTakeShot: () => void;
-  onRemoveshot:() => void;
+  onRemoveShot: () => void;
 }
 
-export function ScreenshotButton({ screenshot, onTakeShot, onRemoveshot }: Props) {
+export function ScreenshotButton({ screenshot, onTakeShot, onRemoveShot }: Props) {
   return (
     <TouchableOpacity
       style={styles.container}
-      onPress={screenshot ? onRemoveshot : onTakeShot}
+      onPress={screenshot ? onRemoveShot : onTakeShot}
     >
       {screenshot ? (
         <View>
