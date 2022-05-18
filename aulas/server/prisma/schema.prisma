@@ -25,5 +25,5 @@ model Feedback {
   comment    String
   screenshot String? //optional 
 
-  @@map("feedbaksk")
+  @@map("feedbacks")
 }
