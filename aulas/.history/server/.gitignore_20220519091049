@@ -1,9 +1,5 @@
 node_modules
-dist
-dist-ssr
-*.local
-
-
+dist_modulesdist-ssr
 # Keep environment variables out of version control
 .env
 # History
