@@ -1,4 +1,0 @@
-let pessoa = {
-    nome: 'ricardo',
-    
-}
