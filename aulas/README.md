@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Git Explorer" src="./.github/Capa.png"/>
+    <img alt="feedback widget cover" src="https://user-images.githubusercontent.com/14863048/169695302-036043bb-14fd-433c-b366-971599db296b.png"/>
 </p>
 
 <h1 align="center">
@@ -20,11 +20,11 @@
   </a>
 </p>
 
-## 🚀 Projeto
+## 🚀 Project
 
-Um Component Widget para feedback que pode ser utilizado em qualquer site.
+A Widget Component to use on any website for get feedbacks from users
 
-## 🔧 Tecnologias
+## 🔧 Tecnologies
 
 - Vite
 - TailWindCSS
@@ -34,14 +34,22 @@ Um Component Widget para feedback que pode ser utilizado em qualquer site.
 - Expo
 - ESLint + Prettier + EditorConfig;
 - VS Code
+- Railway
+- Vercel
+- Insomnia
+- Github
 
 ## 🚀 **Never stop learning...**
 
 ---
+## **Deploy**
+https://nlwimpulsefeedgetweb.vercel.app/
+
 ---
 
 ## 🚀 **How to Run the FEEDBACK APP project**
 
-  - Download the project and ...
+  - Download the project.
+  - Run on terminal: npm install
 
-Feito com ♥ by [Ricardo Domingos](https://www.linkedin.com/in/rickydomingos/)
+Made with ♥ by [Ricardo Domingos](https://www.linkedin.com/in/rickydomingos/)
