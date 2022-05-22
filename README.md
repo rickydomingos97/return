@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Git Explorer" src="Capa.png"/>
+    <img alt="feedback widget cover" src="https://user-images.githubusercontent.com/14863048/169695302-036043bb-14fd-433c-b366-971599db296b.png"/>
 </p>
 
 <h1 align="center">
